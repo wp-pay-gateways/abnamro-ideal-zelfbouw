@@ -1,6 +1,6 @@
 <?php
 
-class Pronamic_WP_Pay_Gateways_AbnAmro_IDealZelfbouw_GatewayIntegration {
+class Pronamic_WP_Pay_Gateways_AbnAmro_IDealZelfbouw_Integration {
 	public function __construct() {
 		$this->id         = 'abnamro-ideal-zelfbouw';
 		$this->name       = 'ABN AMRO - iDEAL Zelfbouw';
