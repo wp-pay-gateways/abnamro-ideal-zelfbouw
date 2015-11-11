@@ -2,7 +2,10 @@
 
 class Pronamic_WP_Pay_Gateways_AbnAmro_IDealZelfbouw_GatewayIntegration {
 	public function __construct() {
-		$this->id = 'abnamro-ideal-easy';
+		$this->id         = 'abnamro-ideal-zelfbouw';
+		$this->name       = 'ABN AMRO - iDEAL Zelfbouw';
+		$this->provider   = 'abnamro';
+		$this->deprecated = true;
 	}
 
 	public function get_config_factory_class() {

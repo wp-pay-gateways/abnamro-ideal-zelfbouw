@@ -1,4 +1,4 @@
-# WordPress Pay Gateway: ABN AMRO - iDEAL Zelfbouw
+# [DEPRECATED] WordPress Pay Gateway: ABN AMRO - iDEAL Zelfbouw
 
 **ABN AMRO - iDEAL Zelfbouw driver for the WordPress payment processing library.**
 
