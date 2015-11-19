@@ -7,4 +7,8 @@ class Pronamic_WP_Pay_Gateways_AbnAmro_IDealZelfbouw_Integration extends Pronami
 		$this->provider   = 'abnamro';
 		$this->deprecated = true;
 	}
+
+	public function get_config_factory_class() {
+		return 'Pronamic_WP_Pay_Gateways_AbnAmro_IDealZelfbouw_ConfigFactory';
+	}
 }
