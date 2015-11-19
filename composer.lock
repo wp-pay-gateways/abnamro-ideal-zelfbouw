@@ -109,12 +109,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/wp-pay-gateways/ideal-advanced.git",
-                "reference": "148f2fc3b79849545905692a0ac6d49ec3de6f7d"
+                "reference": "8d5235dd5d62efa4fa559dfd7aa43f635087b01b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wp-pay-gateways/ideal-advanced/zipball/148f2fc3b79849545905692a0ac6d49ec3de6f7d",
-                "reference": "148f2fc3b79849545905692a0ac6d49ec3de6f7d",
+                "url": "https://api.github.com/repos/wp-pay-gateways/ideal-advanced/zipball/8d5235dd5d62efa4fa559dfd7aa43f635087b01b",
+                "reference": "8d5235dd5d62efa4fa559dfd7aa43f635087b01b",
                 "shasum": ""
             },
             "require": {
@@ -144,7 +144,7 @@
                 "wordpress",
                 "wp"
             ],
-            "time": "2015-11-19 07:35:44"
+            "time": "2015-11-19 08:10:52"
         },
         {
             "name": "wp-pay/core",
