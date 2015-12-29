@@ -54,7 +54,7 @@
 			"xrstf\\Composer52\\Generator::onPostInstallCmd"
 		],
 		"wpcs": [
-			"[ -d vendor/wp-coding-standards ] && vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs"
+			"[ -f vendor/bin/phpcs ] && vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs"
 		]
 	}
 }
