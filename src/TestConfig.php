@@ -8,7 +8,7 @@
  * @author Remco Tolsma
  * @version 1.0.0
  */
-class Pronamic_WP_Pay_Gateways_AbnAmro_IDealZelfbouw_ConfigTest extends Pronamic_WP_Pay_Gateways_IDealAdvanced_Config {
+class Pronamic_WP_Pay_Gateways_AbnAmro_IDealZelfbouw_TestConfig extends Pronamic_WP_Pay_Gateways_IDealAdvanced_Config {
 	public function get_payment_server_url() {
 		return 'https://abnamro-test.ideal-payment.de/ideal/iDeal';
 	}

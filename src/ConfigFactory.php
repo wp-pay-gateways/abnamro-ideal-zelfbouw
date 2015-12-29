@@ -10,6 +10,6 @@
  */
 class Pronamic_WP_Pay_Gateways_AbnAmro_IDealZelfbouw_ConfigFactory extends Pronamic_WP_Pay_Gateways_IDealAdvanced_ConfigFactory {
 	public function __construct() {
-		parent::__construct( 'Pronamic_WP_Pay_Gateways_AbnAmro_IDealZelfbouw_Config', 'Pronamic_WP_Pay_Gateways_AbnAmro_IDealZelfbouw_ConfigTest' );
+		parent::__construct( 'Pronamic_WP_Pay_Gateways_AbnAmro_IDealZelfbouw_Config', 'Pronamic_WP_Pay_Gateways_AbnAmro_IDealZelfbouw_TestConfig' );
 	}
 }

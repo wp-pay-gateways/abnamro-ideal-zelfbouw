@@ -1,5 +1,13 @@
 <?php
 
+/**
+ * Title: ABN AMRO - iDEAL Zelfbouw - Integration
+ * Description:
+ * Copyright: Copyright (c) 2005 - 2016
+ * Company: Pronamic
+ * @author Remco Tolsma
+ * @version 1.0.0
+ */
 class Pronamic_WP_Pay_Gateways_AbnAmro_IDealZelfbouw_Integration extends Pronamic_WP_Pay_Gateways_IDealAdvanced_AbstractIntegration {
 	public function __construct() {
 		$this->id         = 'abnamro-ideal-zelfbouw';
