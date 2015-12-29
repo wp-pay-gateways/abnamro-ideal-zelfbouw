@@ -43,18 +43,14 @@
 	},
 	"scripts": {
 		"post-install-cmd": [
-			"xrstf\\Composer52\\Generator::onPostInstallCmd",
-			"@wpcs"
-		],
-		"post-update-cmd": [
-			"xrstf\\Composer52\\Generator::onPostInstallCmd",
-			"@wpcs"
-		],
-		"post-autoload-dump": [
 			"xrstf\\Composer52\\Generator::onPostInstallCmd"
 		],
-		"wpcs": [
-			"[[ -f vendor/bin/phpcs ]] && vendor/bin/phpcs --config-set installed_paths vendor/wp-coding-standards/wpcs"
+		"post-update-cmd": [
+			"xrstf\\Composer52\\Generator::onPostInstallCmd"
+		],
+		"post-autoload-dump": [
+			"xrstf\\Composer52\\Generator::onPostInstallCmd",
+			"bin/install-wpcs"
 		]
 	}
 }
